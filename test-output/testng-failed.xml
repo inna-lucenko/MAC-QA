@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="5" name="Failed suite [Tests]" data-provider-thread-count="2">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="selenium.SearchTest">
+        <methods>
+          <include name="mayBeCollectionPageOpen"/>
+          <include name="MoreInfoMusicInSearchPage"/>
+          <include name="readAnyBookInSearch"/>
+          <include name="stop"/>
+          <include name="login"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- selenium.SearchTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
